@@ -8,3 +8,5 @@ function kilometerToMeter(distance){
         return meter;
     }
 }
+var result = kilometerToMeter(10);
+console.log(result);
