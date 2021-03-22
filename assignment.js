@@ -54,7 +54,7 @@ console.log(result3);
 
 //megaFriend
 function megaFriend(friends){
-    var name = friends[0];
+    var friendsName = friends[0];
 
     for(var i=0; i<friends.length; i++){
 
@@ -62,13 +62,13 @@ function megaFriend(friends){
             return "Negative value is not allowed";
         }
 
-            var element = friends[i];
-            if(element.length>name.length){
-            name = element;
+            var name = friends[i];
+            if(name.length>friendsName.length){
+            friendsName = name;
 
         }
     }
-    return name;
+    return friendsName;
 }
-var result4 = megaFriend(['joydip','jishu','Nipa','Indrajit','karim','Rahim']);
+var result4 = megaFriend(['mustafizur','rahman','reza','fahim','atef','rasel','mohon','rafi','alamin','sam']);
 console.log(result4);
