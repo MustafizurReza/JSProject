@@ -51,3 +51,24 @@ function hotelCost(days){
 }
 var result3 = hotelCost(43);
 console.log(result3);
+
+//megaFriend
+function megaFriend(friends){
+    var name = friends[0];
+
+    for(var i=0; i<friends.length; i++){
+
+        if(friends[i]==""){
+            return "Negative value is not allowed";
+        }
+
+            var element = friends[i];
+            if(element.length>name.length){
+            name = element;
+
+        }
+    }
+    return name;
+}
+var result4 = megaFriend(['joydip','jishu','Nipa','Indrajit','karim','Rahim']);
+console.log(result4);
